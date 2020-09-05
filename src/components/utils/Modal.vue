@@ -1,0 +1,18 @@
+<template>
+  <div class="modal">
+    <slot>请添加要使用蒙版的组件</slot>
+  </div>
+</template>
+
+
+<style scoped>
+.modal {
+width: 100%;
+height: 100%;
+position: fixed;
+left: 0;
+top: 0;
+background-color:rgba(0,0,0,0.5);
+z-index:200;
+}
+</style>
